@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "d823eac6-189d-45f8-a941-8d7f2664a050",
+		"name": "YouTube_Fetcher",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31976963"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/fetch-youtube-data/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel_url\": \"https://www.youtube.com/@channelhandle\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/fetch-youtube-data/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"fetch-youtube-data",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
+
