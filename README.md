@@ -17,7 +17,7 @@ A Python script that fetches and processes data from a YouTube channel, includin
 - Fetch all comments and replies for each video.
 - Save video and comment data into separate sheets in an Excel file.
 
-##1.Clone this repository
+## 1.Clone this repository
    git clone https://github.com/sarthak-56/GoQuest_Assignment.git
    
 ## 2.Create Virtual environment(if virtual environment not activate create a new virtual environment)
